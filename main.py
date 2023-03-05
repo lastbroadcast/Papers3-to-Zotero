@@ -9,7 +9,7 @@ output_file = './PapersLibraryXML_Cleaned.xml'
 # add undesired text and replacements here, in format of 'find': 'replacement'
 # (use '' for deletion)
 replacements = {
-    'file://localhost/Volumes/Shared%20Folders/AllFiles': '', #deletes this string from all paths
+    'file://localhost/Volumes/Shared%20Folders/AllFiles': '', #deletes this string from all paths (probably only important if you are running Papers with Parallels)
     '%20': ' ' #replaces '%20' with a space
 }
 
