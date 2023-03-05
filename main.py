@@ -17,7 +17,7 @@ replacements = {
 kill_tags = [
     'accession-num',
     'auth-address',
-    'related-urls', #although this field is recognised by Zotero (as 'elink'), I chose to remove it; Zotero still links to online article via DOI if present
+    'related-urls', #although this field is recognised by Zotero (as 'elink'), I chose to remove it (Zotero still links to online article via DOI if present). Note that pdf paths are stored in a different tag, so pdfs still transfer across
     'publisher',
     'periodical',
     'custom3'
