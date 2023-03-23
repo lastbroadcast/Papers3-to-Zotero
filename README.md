@@ -10,10 +10,10 @@ How to use:
 
 *From Papers3, export as 'EndNote XML v8 or higher'
 
-*Customise the script to make the modifications you want. For example:
--'%20' character changed to a space
--I was using Parallels to run Papers3, so I needed to remove a specific string from all path names
--several XML tags that are not recognised by Zotero are removed
+*If desired, customise the script to make the modifications you want (see comments in script). By default the script:
+-replaces the '%20' character with a space
+-removes several XML tags that are not recognised by Zotero
+-removes a string that was added to all path names Parallels (used to run Papers3), preventing the import of pdf attachments
 
 *Run script
 
